@@ -1,0 +1,276 @@
+/* Tag Selectors */
+
+body {
+  font-family: Montserrat;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+@media (max-width: 1294px) and (min-width: 990px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Genereal */
+.separate_section {
+  padding: 5% 15%
+}
+
+.center_pusher {
+  text-align: center;
+}
+
+.default_lightred_background {
+  background-color: #ff4c68;
+}
+
+.white_text {
+  color: white;
+}
+
+
+
+
+
+
+
+
+/* Title */
+
+    /* Navbar Styling Starts*/
+    .navbar {
+      padding-left: 0;
+
+    }
+
+    .navbar-brand {
+      font-family: Ubuntu;
+      font-size: 2.5rem;
+      font-weight: bold;
+
+    }
+
+    .nav-link {
+      font-size: 1.1rem;
+      margin: auto 10px;
+    }
+
+    .title_main {
+      padding-top: 1%;
+    }
+
+
+
+
+
+
+    /* Navbar Styling Ends*/
+
+.iphone_image {
+
+  width: 200px;
+  margin-top: 30px;
+  transform: rotate(25deg);
+  position: relative;
+  margin-left: 0;
+  z-index: 0;
+}
+
+.title_content{
+  margin-top: 30px;
+}
+
+
+@media (max-width: 991px) {
+  .title_content {
+    text-align: center;
+  }
+
+  .iphone_image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .testimonial_heading {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 634px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Features */
+.features_main {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: -150px;
+}
+
+.features_icons {
+  color: #ef8172;
+  font-size: 50px;
+}
+
+.features_icons:hover {
+  color: #ff4c68;
+}
+
+.features_headings {
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.features_taglines {
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonials */
+.testimonial_profile_pic {
+  width: 80px;
+  border-radius: 100%;
+  margin: 30px auto;
+}
+
+.testimonil_name {
+  display: block;
+}
+
+.testimonial_heading {
+  width: 70%;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Press */
+.press_main {
+  padding-bottom: 5%;
+}
+
+.press_logos {
+  width: 200px;
+  padding: 0 30px;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing */
+.card {
+  margin: 30px auto;
+}
+
+.button_spacer {
+  margin-top: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CTA */
+.font_specifier {
+  font-weight: 900;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.social_media {
+  margin: 10px;
+}
+
+.text-secondary {
+  padding-top: 10px
+}
